@@ -4,6 +4,8 @@
 body {
 	margin-top: 80px;
   background-color:#CEACE6;
+	background-image:url("../images/Picture1.jpeg");
+	background-position:cover;
 }
 #heading{
   text-align: center;
