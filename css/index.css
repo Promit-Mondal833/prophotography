@@ -4,9 +4,11 @@
 .row{
   width:100%;
 }
+html{
+ background-color:#DADA5A; 
+}
 body{
   margin: 0px; 
-  background-color:#DADA5A;
 }
 h1{
   margin: 0px;
