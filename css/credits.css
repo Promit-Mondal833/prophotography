@@ -82,7 +82,7 @@ footer{
   text-decoration: none;
   text-align: center;
   color:black;
-  margin: -5px 30px 20px 10px;
+  margin: -5px 30px 20px 0px;
   transition-property: background,border,border-radius;
   transition-duration: .3s;
   transition-timing-function: linear;
