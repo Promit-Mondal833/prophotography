@@ -44,6 +44,9 @@ img{
     border:2px solid #1E1ECD;
      box-shadow: 2px 5px 9px black;
 }
+#pic3{
+	margin-right: -20px;
+}
 .link2{
   background-color: #FFB914;
   display: inline-block;
@@ -182,5 +185,8 @@ footer{
  	width:100%;
  	text-align: center;
  	margin-bottom: 10px;
+ }
+	 #pic3{
+ 	margin-right: 0px;
  }
 }
