@@ -39,19 +39,37 @@ header{
  #linksec{
   margin:30px;
  }
+#wel{
+  background-color: #444444;
+  margin: 20px;
+  margin-top: 10%;
+  border:2px solid #E4E4E4;
+  border-radius: 5px;
+ }
+ p{
+  text-align: left;
+  font-size: 110%;
+  margin: 20px;
+  padding: 20px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif ;
+}
  @media(min-width: 916px){
       img{
         width:180px;
         height: 180px;
       }
  }
- @media(min-width: 600px) and (max-width: 916px){
+ @media(min-width: 613px) and (max-width: 916px){
   img{
       width:150px;
       height: 150px;
   }
+    p{
+    font-size: 110%;
+  }
  }
- @media(min-width: 395px) and (max-width: 600px){
+ @media(min-width: 395px) and (max-width: 613px){
    #linksec{
     margin: 20px;
    }
@@ -63,6 +81,9 @@ header{
  @media(max-width: 600px){
   body{
      background:url(../images/2020-07-27-10-32-55.jpg);
+  }
+    p{
+    font-size: 100%;
   }
  }
  @media(min-width: 356px) and (max-width: 395px){
