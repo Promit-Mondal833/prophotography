@@ -14,7 +14,7 @@ h1{
   display: inline-block;
   width:100%;
  text-align: center;
-  font-size: 250%;
+  font-size: 280%;
   padding: 40px 0px 40px 0px;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -55,6 +55,7 @@ header{
   color:white;
   font-family: Arial, Helvetica, sans-serif ;
 }
+/*media queries*/
  @media(min-width: 916px){
       img{
         width:180px;
@@ -66,7 +67,7 @@ header{
       width:150px;
       height: 150px;
   }
-p{
+  p{
     font-size: 110%;
     padding: 15px;
   }
@@ -84,7 +85,7 @@ p{
   body{
      background:url(../images/2020-07-27-10-32-55.jpg);
   }
-   p{
+  p{
     font-size: 100%;
     padding: 12px;
   }
