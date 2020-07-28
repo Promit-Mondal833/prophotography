@@ -39,17 +39,18 @@ header{
  #linksec{
   margin:30px;
  }
-#wel{
+ #wel{
   background-color: #444444;
-  margin: 20px;
+  margin: 35px;
   margin-top: 10%;
+  margin-bottom: 25px;
   border:2px solid #E4E4E4;
   border-radius: 5px;
  }
  p{
   text-align: left;
   font-size: 110%;
-  margin: 20px;
+  margin: 15px;
   padding: 20px;
   color:white;
   font-family: Arial, Helvetica, sans-serif ;
@@ -65,8 +66,9 @@ header{
       width:150px;
       height: 150px;
   }
-    p{
+p{
     font-size: 110%;
+    padding: 15px;
   }
  }
  @media(min-width: 395px) and (max-width: 613px){
@@ -82,8 +84,9 @@ header{
   body{
      background:url(../images/2020-07-27-10-32-55.jpg);
   }
-    p{
+   p{
     font-size: 100%;
+    padding: 12px;
   }
  }
  @media(min-width: 356px) and (max-width: 395px){
