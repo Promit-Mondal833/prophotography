@@ -121,7 +121,7 @@ p,li{
   color: #4E0000;
 }
 }
-@media (min-width: 415px) and (max-width:674px){
+@media (min-width: 415px) and (max-width:709px){
    .links{
     width: 45%;
     height: 32px;
