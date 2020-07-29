@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+}
+.row{
+  width:100%;
+}
+body{
+  margin: 0px; 
+  background:url("../images/sky23.jpeg"); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*header section*/
+img{
+	display: inline;
+}
+#icon{
+  height: 80px;
+  width:80px;
+   }
+
+h1{
+  margin: 0px;
+  display: inline;
+  width:100%;
+ text-align: left;
+  font-size: 250%;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+header{
+   background-color:#00E1E1;
+   padding: 10px;
+}
+/*all links section*/
+.linkage{
+	display: block;
+	text-align: center;
+}
+.links{
+  background-color: rgba(255, 255, 255);
+  display: inline-block;
+  width:20%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin:10px;
+  height: 40px;
+  border:2px solid black;
+  border-radius: 4px;
+  transition-property:border,border-radius,background-color,color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.links:hover{
+  border-radius: 3px;
+  background-color: rgba(255, 255, 180,0.8);
+  border:2px solid #1444C3;
+  color: #4E0000;
+}
+/*mainsection*/
+#main{
+  margin:20px;
+}
+#wikl{
+  background-color: rgba(255, 255, 160,0.4);
+  text-decoration: none;
+  text-shadow: none;
+  color: #4F4FFF;
+  border-radius: 3px;
+}
+p,ol{
+  text-align: justify;
+  font-size: 120%;
+  padding: 10px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+ol{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+h2{
+  color: #FFFFC8;
+  text-shadow: 2px 2px 3px #000000;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 3px;
+}
+h3,ul{
+  color: #FFD4D4;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+h3{
+  text-shadow: 2px 2px 3px #000000;
+}
+ul>li>p{
+  padding-right: 20px;
+}
+p,li{
+  text-shadow: 0.5px 0.5px 2px #000000;
+}
+/*media quaries*/
+@media (max-width:670px){
+    h1{
+    	display: block;
+    }
+    #icon{
+      height: 70px;
+      width:70px;
+    }
+    .links:hover{
+  border-radius: 3px;
+  background-color: rgba(255, 255, 180,0.8);
+  border:1px solid #1444C3;
+  color: #4E0000;
+}
+}
+@media (min-width: 415px) and (max-width:644px){
+   .links{
+    width: 45%;
+    height: 32px;
+    padding: 7px;
+    margin: 6px;
+    border:1px solid black;
+   }
+   h1{
+    font-size: 230%;
+   }
+   h2{
+    font-size: 1.4em;
+   }
+   h3{
+    font-size: 1.1em;
+   }
+   p,ol{
+    font-size: 110%;
+   }
+   ul>li>p{
+    font-size: 110%;
+   }
+}
+@media(max-width: 415px){
+   .links{
+    width:90%;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border:1px solid black;
+   }
+    h1{
+    font-size: 215%;
+   }
+    h2{
+    font-size: 1.3em;
+   }
+    h3{
+    font-size: 1.1em;
+   }
+    p,ol{
+    font-size: 100%;
+   }
+   ul>li>p{
+    font-size: 100%;
+   }
+}
