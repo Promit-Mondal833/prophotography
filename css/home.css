@@ -49,6 +49,9 @@ header{
   height: 40px;
   border:2px solid black;
   border-radius: 4px;
+  color: #0000A0;
+  font-weight: 550;
+  font-family: sans-serif;
   transition-property:border,border-radius,background-color,color;
   transition-duration: 0.2s;
   transition-timing-function: linear;
@@ -118,7 +121,7 @@ p,li{
   color: #4E0000;
 }
 }
-@media (min-width: 415px) and (max-width:644px){
+@media (min-width: 415px) and (max-width:674px){
    .links{
     width: 45%;
     height: 32px;
