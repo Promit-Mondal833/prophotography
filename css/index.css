@@ -105,6 +105,9 @@ header{
     width:70px;
     height: 70px;
   }
+      h1{
+    padding-top: 80px;
+  }
  }
  @media(min-width: 356px) and (max-width: 395px){
     #linksec{
@@ -123,9 +126,6 @@ header{
       width:110px;
       height: 110px;
       margin: 10px;
-  }
-   h1{
-    padding-top: 80px;
   }
  }
 @media(min-width: 1500px){
