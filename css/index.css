@@ -6,8 +6,10 @@
 }
 body{
   margin: 0px; 
-  background:url(../images/2020-07-27-10-33-41.jpg);
-  background-size: auto;
+  background:url(../images/flower23.jpeg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 h1{
   margin: 0px;
@@ -95,7 +97,10 @@ header{
  }
  @media(max-width: 600px){
   body{
-     background:url(../images/2020-07-27-10-32-55.jpg);
+     background:url(../images/rose23.jpeg);
+     height: 100%;
+    background-position: center;
+    background-size: cover;
   }
   p{
     font-size: 100%;
