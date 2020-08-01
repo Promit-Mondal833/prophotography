@@ -139,3 +139,8 @@ header{
       height: 200px;
   }
 }
+@media(max-width: 800px){
+  body{
+    margin-bottom: 150px
+  }
+}
